@@ -15,11 +15,14 @@ public class PlayerCtrl : MonoBehaviour
     public float dashSpeed = 30.0f; //대쉬 속도
     private int jumpCount = 2; // 점프 횟수를 셀 변수
 
+
+
     Rigidbody myRigidbody;
     void Start()
     {
         tr = GetComponent<Transform>(); //transform 할당
         myRigidbody = GetComponent<Rigidbody>();
+
     }
 
     void Update()
